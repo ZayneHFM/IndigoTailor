@@ -1,0 +1,18 @@
+{
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.aromaDescription": "发酵蓝靛、旧亚麻布与冰冷生铁的气息。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.aromaPrinciple": "发酵蓝靛、旧亚麻布与冰冷生铁的气息。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.banter.alive.endTurnPing": "……线还绷着。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.banter.dead.endTurnPing": "……（只剩丝线轻轻的回响）",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.cardsModifierDescription": "手牌不是一堆牌，是一台织机。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.cardsModifierTitle": "织造",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.description": "暗港底层织坊的孤僻匠人，背负着比身躯更庞大的双刃铁剪。\n裁剪废牌浸染成刃，把碎布严丝合缝地绣入主牌。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.eventDeathPrevention": "还没剪断。这条线还没到头。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.goldMonologue": "铜钱落进顶针里，叮的一声，刚好够再买一寸布。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.lockedDescription": "用其他角色完成一局游戏后解锁。",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.possessiveAdjective": "她的",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounObject": "她",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounPossessive": "她的",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounSubject": "她",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.title": "靛染裁缝",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.titleObject": "靛染裁缝"
+}

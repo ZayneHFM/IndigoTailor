@@ -1,0 +1,13 @@
+{
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.title": "暗港底层织坊",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.description": "你踏入一间半淹在暗港黑水中的废弃织坊。生锈的铁织机上仍绷着数道闪烁微光的青色经纱，一口巨大的石砌染缸正冒着幽蓝的气泡。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.SALVAGE_BOLT.title": "打捞沉水染布",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.SALVAGE_BOLT.description": "失去 [red]{HpCost}[/red] 点生命。获得专属遗物[gold]双孔铜扣[/gold]。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DRINK_VAT.title": "淬炼发酵蓝靛",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DRINK_VAT.description": "为牌库中 1 张牌永久贴入【针胚+】与【布胚+】效果。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DISMANTLE_LOOM.title": "拆解废弃铁织机",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DISMANTLE_LOOM.description": "获得 [gold]{GoldGain}[/gold] 金币。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.SALVAGE_BOLT_DONE.description": "刺骨的染液灼伤了你的手臂，但你在沉底的布匹中摸到了两枚温润的黄铜古扣。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.DRINK_VAT_DONE.description": "古老的蓝靛顺着银针渗入织物纹理，刀刃与内衬在青光中融为一体。",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.DISMANTLE_LOOM_DONE.description": "你用巨剪利落地剪断固定铁织机的铜铆钉，将值钱的构件收入囊中。"
+}

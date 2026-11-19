@@ -1,0 +1,144 @@
+using System;
+using Godot;
+using MegaCrit.Sts2.Core.Bindings.MegaSpine;
+using MegaCrit.Sts2.Core.Helpers;
+
+namespace IndigoTailor.Character;
+
+/// <summary>
+/// 靛青裁缝选人界面大背景：Spine 动画播放 + 按视口居中铺满。
+/// 抵消父容器 AnimatedBg 的偏移与缩放。
+/// </summary>
+public partial class TailorSelectBgPlayer : Node
+{
+    private const string IdleAnimation = "idle_loop";
+    private const float StageWidth = 1920f;
+    private const float StageHeight = 1080f;
+    private static readonly Color FillColor = Color.Color8(27, 38, 59);
+
+    private MegaSprite? _sprite;
+    private Node2D? _spineNode;
+    private CanvasItem? _parentCanvas;
+    private ColorRect? _backdrop;
+    private Vector2 _lastViewportSize = Vector2.Zero;
+    private Transform2D _lastParentTransform = Transform2D.Identity;
+    private bool _hasLayout;
+
+    public override void _Ready()
+    {
+        _spineNode = GetParent() as Node2D;
+        if (_spineNode is null)
+        {
+            MainFile.Logger.Error("选人背景：父节点不是 Node2D，跳过");
+            return;
+        }
+
+        _parentCanvas = _spineNode.GetParent() as CanvasItem;
+        EnsureBackdrop();
+        ApplyLayout();
+        Callable.From(ApplyLayout).CallDeferred();
+        GetViewport().SizeChanged += ApplyLayout;
+
+        try
+        {
+            _sprite = new MegaSprite(_spineNode);
+            SpineNodeExtensions.RunWhenSpineReady(this, _sprite, OnSpineReady);
+        }
+        catch (Exception e)
+        {
+            MainFile.Logger.Error("选人背景：绑定 Spine 失败 " + e);
+        }
+    }
+
+    public override void _Process(double delta)
+    {
+        if (_spineNode is null) return;
+
+        var size = GetViewport().GetVisibleRect().Size;
+        var parentXf = _parentCanvas?.GetGlobalTransform() ?? Transform2D.Identity;
+        if (!_hasLayout || size != _lastViewportSize || !parentXf.IsEqualApprox(_lastParentTransform))
+        {
+            ApplyLayout();
+        }
+    }
+
+    public override void _ExitTree()
+    {
+        try
+        {
+            GetViewport().SizeChanged -= ApplyLayout;
+        }
+        catch
+        {
+            // 退出时视口可能已失效
+        }
+
+        _sprite?.Dispose();
+        _sprite = null;
+    }
+
+    private void EnsureBackdrop()
+    {
+        var root = _spineNode?.GetParent();
+        if (root is null) return;
+
+        var existing = root.GetNodeOrNull<ColorRect>("BgBackdrop");
+        if (existing is not null)
+        {
+            _backdrop = existing;
+            return;
+        }
+
+        var backdrop = new ColorRect
+        {
+            Name = "BgBackdrop",
+            Color = FillColor,
+            MouseFilter = Control.MouseFilterEnum.Ignore,
+        };
+        backdrop.SetAnchorsPreset(Control.LayoutPreset.FullRect);
+        _backdrop = backdrop;
+        root.CallDeferred(Node.MethodName.AddChild, backdrop);
+        root.CallDeferred(Node.MethodName.MoveChild, backdrop, 0);
+    }
+
+    private void ApplyLayout()
+    {
+        if (_spineNode is null || !_spineNode.IsInsideTree()) return;
+
+        var size = GetViewport().GetVisibleRect().Size;
+        if (size.X <= 0f || size.Y <= 0f) return;
+
+        float coverScale = Mathf.Max(size.X / StageWidth, size.Y / StageHeight);
+        _spineNode.GlobalPosition = size / 2f;
+        _spineNode.GlobalScale = new Vector2(coverScale, coverScale);
+
+        if (_backdrop is not null)
+        {
+            _backdrop.SetAnchorsPreset(Control.LayoutPreset.FullRect);
+        }
+
+        _lastViewportSize = size;
+        _lastParentTransform = _parentCanvas?.GetGlobalTransform() ?? Transform2D.Identity;
+        _hasLayout = true;
+    }
+
+    private void OnSpineReady(MegaAnimationState state)
+    {
+        try
+        {
+            if (_sprite is null) return;
+
+            if (_sprite.HasAnimation(IdleAnimation))
+            {
+                state.SetAnimation(IdleAnimation, loop: true, trackId: 0);
+                return;
+            }
+
+            MainFile.Logger.Error($"选人背景：骨架里没有动画 {IdleAnimation}");
+        }
+        catch (Exception e)
+        {
+            MainFile.Logger.Error("选人背景：播放动画失败 " + e);
+        }
+    }
+}

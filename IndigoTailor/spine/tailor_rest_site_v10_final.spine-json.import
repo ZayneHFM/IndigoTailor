@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+uid="uid://cxn4oyg75jqdw"
+path="res://.godot/imported/tailor_rest_site_v10_final.spine-json-fc1935c1b7928cc8dd5838283862951a.spjson"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/tailor_rest_site_v10_final.spine-json"
+dest_files=["res://.godot/imported/tailor_rest_site_v10_final.spine-json-fc1935c1b7928cc8dd5838283862951a.spjson"]
+
+[params]
+

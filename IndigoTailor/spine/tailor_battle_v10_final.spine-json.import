@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+uid="uid://duj5qy2210y36"
+path="res://.godot/imported/tailor_battle_v10_final.spine-json-2eb67a79af58db4f4faf109d66f1a0ad.spjson"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/tailor_battle_v10_final.spine-json"
+dest_files=["res://.godot/imported/tailor_battle_v10_final.spine-json-2eb67a79af58db4f4faf109d66f1a0ad.spjson"]
+
+[params]
+

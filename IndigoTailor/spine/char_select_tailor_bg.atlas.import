@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bsqlwo685i1vu"
+path="res://.godot/imported/char_select_tailor_bg.atlas-82cdd6a3b4dea869ee10d712b0424a61.spatlas"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/char_select_tailor_bg.atlas"
+dest_files=["res://.godot/imported/char_select_tailor_bg.atlas-82cdd6a3b4dea869ee10d712b0424a61.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

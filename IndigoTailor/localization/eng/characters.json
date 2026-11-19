@@ -1,0 +1,18 @@
+{
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.aromaDescription": "Fermented indigo dye, aged linen, and cold iron shears.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.aromaPrinciple": "Fermented indigo dye, aged linen, and cold iron shears.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.banter.alive.endTurnPing": "...the thread still holds.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.banter.dead.endTurnPing": "...(only the faint echo of silk)",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.cardsModifierDescription": "A hand is not a pile of cards. It is a loom.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.cardsModifierTitle": "Weaving",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.description": "A reclusive artisan of the Underdocks loom-houses, carrying twin-bladed iron shears larger than her own body.\nShe treats her hand as a living loom: cutting dead cards into dyed scraps, and stitching those scraps into her main cards along glowing seams.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.eventDeathPrevention": "Not yet cut. This thread has not run out.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.goldMonologue": "A coin drops into the thimble. One more inch of cloth.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.lockedDescription": "Unlock by completing a run with another character.",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.possessiveAdjective": "her",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounObject": "her",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounPossessive": "her",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.pronounSubject": "she",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.title": "The Indigo Tailor",
+  "INDIGOTAILOR-INDIGO_TAILOR_CHARACTER.titleObject": "The Indigo Tailor"
+}

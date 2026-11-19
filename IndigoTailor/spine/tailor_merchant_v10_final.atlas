@@ -1,0 +1,7 @@
+tailor_merchant_v10_final.png
+size: 1024, 1024
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+merchant_master
+  bounds: 0, 0, 1024, 1024

@@ -1,0 +1,14 @@
+﻿{
+  "id": "IndigoTailor",
+  "name": "靛染裁缝 (The Indigo Tailor)",
+  "author": "Zayne",
+  "description": "为《杀戮尖塔 2》新增一名冷峻而精准的原创角色「靛染裁缝」。围绕【裁剪】断敌破甲与【缝合】布贴附魔构建卡组。",
+  "version": "v0.1.0",
+  "min_game_version": "0.107.0",
+  "has_pck": true,
+  "has_dll": true,
+  "dependencies": [
+    {"id": "BaseLib", "min_version": "3.4.8"}
+  ],
+  "affects_gameplay": true
+}

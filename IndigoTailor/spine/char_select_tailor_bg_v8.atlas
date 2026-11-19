@@ -1,0 +1,75 @@
+char_select_tailor_bg_v8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+05_char_torso_extended
+  rotate: false
+  xy: 8, 8
+  size: 451, 680
+  orig: 451, 680
+  offset: 0, 0
+  index: -1
+11a_shears_upper
+  rotate: false
+  xy: 467, 8
+  size: 680, 675
+  orig: 680, 675
+  offset: 0, 0
+  index: -1
+11b_shears_lower
+  rotate: false
+  xy: 1155, 8
+  size: 680, 675
+  orig: 680, 675
+  offset: 0, 0
+  index: -1
+02_bg_giant_shears_silhouette
+  rotate: false
+  xy: 8, 696
+  size: 680, 665
+  orig: 680, 665
+  offset: 0, 0
+  index: -1
+07_char_forearm_needle
+  rotate: false
+  xy: 696, 696
+  size: 376, 386
+  orig: 376, 386
+  offset: 0, 0
+  index: -1
+01_bg_underdocks_clean
+  rotate: false
+  xy: 1080, 696
+  size: 680, 382
+  orig: 680, 382
+  offset: 0, 0
+  index: -1
+09_char_head_hood
+  rotate: false
+  xy: 1768, 696
+  size: 269, 330
+  orig: 269, 330
+  offset: 0, 0
+  index: -1
+10_char_thimble_crown
+  rotate: false
+  xy: 8, 1369
+  size: 262, 281
+  orig: 262, 281
+  offset: 0, 0
+  index: -1
+08_char_pincushion
+  rotate: false
+  xy: 278, 1369
+  size: 290, 234
+  orig: 290, 234
+  offset: 0, 0
+  index: -1
+12_taut_cyan_thread
+  rotate: false
+  xy: 576, 1369
+  size: 320, 48
+  orig: 320, 48
+  offset: 0, 0
+  index: -1

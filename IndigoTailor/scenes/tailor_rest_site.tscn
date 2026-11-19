@@ -1,0 +1,47 @@
+[gd_scene load_steps=2 format=3 uid="uid://tailor_rest_site_v10_final"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://tailor_rest_site_v10_final_data" path="res://IndigoTailor/spine/tailor_rest_site_v10_final_data.tres" id="1_data"]
+
+[node name="TailorRestSite" type="Node2D"]
+position = Vector2(0, 0)
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, 0)
+scale = Vector2(0.35, 0.35)
+skeleton_data_res = ExtResource("1_data")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+
+[node name="ControlRoot" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+
+[node name="Hitbox" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -120.0
+offset_top = -260.0
+offset_right = 120.0
+offset_bottom = 0.0
+
+[node name="ThoughtBubbleRight" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = 100.0
+offset_top = -240.0
+offset_right = 100.0
+offset_bottom = -240.0
+
+[node name="ThoughtBubbleLeft" type="Control" parent="ControlRoot"]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -100.0
+offset_top = -240.0
+offset_right = -100.0
+offset_bottom = -240.0

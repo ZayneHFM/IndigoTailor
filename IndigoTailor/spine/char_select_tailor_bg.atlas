@@ -1,0 +1,11 @@
+char_select_tailor_bg.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+01_bg_clean_field
+  bounds: 8, 8, 960, 540
+02_back_shears
+  bounds: 976, 8, 263, 531
+03_hand_needle
+  bounds: 1247, 8, 150, 158

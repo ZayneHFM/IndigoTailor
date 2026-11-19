@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.json"
+type="SpineSkeletonFileResource"
+uid="uid://bk115e75cxwbh"
+path="res://.godot/imported/tailor_merchant_v10_final.spine-json-46b13975f1a10bf527f2aa8901c2c72b.spjson"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/tailor_merchant_v10_final.spine-json"
+dest_files=["res://.godot/imported/tailor_merchant_v10_final.spine-json-46b13975f1a10bf527f2aa8901c2c72b.spjson"]
+
+[params]
+

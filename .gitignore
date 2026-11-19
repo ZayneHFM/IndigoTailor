@@ -1,0 +1,14 @@
+# Godot / .NET 本地构建缓存
+.godot/
+.import/
+bin/
+obj/
+mono/
+*.ctex
+uid_cache.bin
+project_metadata.cfg
+*.genpublishdeps.cache
+*.AssemblyReference.cache
+# 本地私有路径配置（不入库）
+Directory.Build.props
+local.props

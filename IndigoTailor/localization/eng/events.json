@@ -1,0 +1,13 @@
+{
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.title": "The Underdocks Loom-House",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.description": "You step into a half-submerged loom-house in the Underdocks. Glowing cyan warp threads still hum across a rusted iron loom beside a bubbling stone vat of fermented indigo.",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.SALVAGE_BOLT.title": "Salvage Sunken Bolt",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.SALVAGE_BOLT.description": "Lose [red]{HpCost}[/red] HP. Obtain [gold]Two-Hole Brass Button[/gold].",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DRINK_VAT.title": "Temper in Fermented Indigo",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DRINK_VAT.description": "Permanently stitch 1 [gold]Crimson Needle Patch+[/gold] and 1 [gold]Indigo Lining Patch+[/gold] onto a card in your Deck.",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DISMANTLE_LOOM.title": "Dismantle Iron Loom",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.INITIAL.options.DISMANTLE_LOOM.description": "Gain [gold]{GoldGain}[/gold] Gold.",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.SALVAGE_BOLT_DONE.description": "The caustic dye stings your fingers, but you pull a pair of ancient brass buttons from the sunken silk.",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.DRINK_VAT_DONE.description": "Aged indigo seeps along the needle tracks, binding blade and lining permanently into the weave.",
+  "INDIGOTAILOR-UNDERDOCKS_LOOM_HOUSE.pages.DISMANTLE_LOOM_DONE.description": "With one decisive snap of your giant shears, you harvest the brass fittings and move on."
+}

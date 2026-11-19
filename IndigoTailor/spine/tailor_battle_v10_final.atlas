@@ -1,0 +1,43 @@
+tailor_battle_v10_final.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+ground_shadow
+  bounds: 8, 8, 539, 113
+blade_lower
+  bounds: 553, 8, 864, 802
+blade_upper
+  bounds: 8, 816, 799, 863
+pincushion
+  bounds: 1423, 8, 215, 240
+needle_fly
+  bounds: 1644, 8, 71, 67
+leg_back
+  bounds: 1721, 8, 86, 342
+leg_front
+  bounds: 1813, 8, 125, 373
+arm_right
+  bounds: 8, 127, 151, 324
+torso_coat
+  bounds: 1423, 387, 393, 511
+arm_left
+  bounds: 165, 127, 292, 104
+head
+  bounds: 165, 237, 201, 312
+silk_needle_long
+  bounds: 1423, 254, 256, 24
+silk_needle_short
+  bounds: 1423, 284, 256, 24
+silk_catenary
+  bounds: 1423, 314, 256, 24
+silk_catenary_b
+  bounds: 1423, 344, 256, 24
+silk_tail
+  bounds: 8, 555, 256, 24
+vfx_attack_slash
+  bounds: 270, 555, 256, 256
+vfx_cast_loom
+  bounds: 813, 816, 256, 256
+vfx_die_snap
+  bounds: 372, 237, 160, 160

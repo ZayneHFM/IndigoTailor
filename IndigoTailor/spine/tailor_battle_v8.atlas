@@ -1,0 +1,222 @@
+tailor_battle_v8.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02a_shears_blade_upper
+  rotate: false
+  xy: 8, 8
+  size: 680, 675
+  orig: 680, 675
+  offset: 0, 0
+  index: -1
+02b_shears_blade_lower
+  rotate: false
+  xy: 696, 8
+  size: 680, 675
+  orig: 680, 675
+  offset: 0, 0
+  index: -1
+18_vfx_needle_barrage
+  rotate: false
+  xy: 1384, 8
+  size: 495, 499
+  orig: 495, 499
+  offset: 0, 0
+  index: -1
+19_vfx_severed_fate_thread
+  rotate: false
+  xy: 8, 691
+  size: 499, 499
+  orig: 499, 499
+  offset: 0, 0
+  index: -1
+16_vfx_shear_x_slash
+  rotate: false
+  xy: 515, 691
+  size: 495, 495
+  orig: 495, 495
+  offset: 0, 0
+  index: -1
+17_vfx_loom_hex_matrix
+  rotate: false
+  xy: 1018, 691
+  size: 499, 495
+  orig: 499, 495
+  offset: 0, 0
+  index: -1
+04a_pincushion_body
+  rotate: false
+  xy: 1525, 691
+  size: 418, 470
+  orig: 418, 470
+  offset: 0, 0
+  index: -1
+04b_pincushion_pins
+  rotate: false
+  xy: 8, 1198
+  size: 418, 470
+  orig: 418, 470
+  offset: 0, 0
+  index: -1
+12a_arm_left_forearm
+  rotate: false
+  xy: 434, 1198
+  size: 306, 371
+  orig: 306, 371
+  offset: 0, 0
+  index: -1
+09b_skirt_left
+  rotate: false
+  xy: 748, 1198
+  size: 240, 350
+  orig: 240, 350
+  offset: 0, 0
+  index: -1
+09c_skirt_right
+  rotate: false
+  xy: 996, 1198
+  size: 245, 350
+  orig: 245, 350
+  offset: 0, 0
+  index: -1
+15_needle_strike
+  rotate: false
+  xy: 1249, 1198
+  size: 286, 347
+  orig: 286, 347
+  offset: 0, 0
+  index: -1
+10a_head_hood
+  rotate: false
+  xy: 1543, 1198
+  size: 205, 323
+  orig: 205, 323
+  offset: 0, 0
+  index: -1
+08_coat_back_lining
+  rotate: false
+  xy: 1756, 1198
+  size: 260, 290
+  orig: 260, 290
+  offset: 0, 0
+  index: -1
+09a_torso_upper
+  rotate: false
+  xy: 8, 1676
+  size: 425, 282
+  orig: 425, 282
+  offset: 0, 0
+  index: -1
+06b_leg_back_shin
+  rotate: false
+  xy: 441, 1676
+  size: 130, 272
+  orig: 130, 272
+  offset: 0, 0
+  index: -1
+06a_leg_back_thigh
+  rotate: false
+  xy: 579, 1676
+  size: 130, 270
+  orig: 130, 270
+  offset: 0, 0
+  index: -1
+05b_leg_front_shin
+  rotate: false
+  xy: 717, 1676
+  size: 166, 260
+  orig: 166, 260
+  offset: 0, 0
+  index: -1
+05a_leg_front_thigh
+  rotate: false
+  xy: 891, 1676
+  size: 166, 250
+  orig: 166, 250
+  offset: 0, 0
+  index: -1
+07b_arm_right_forearm
+  rotate: false
+  xy: 1065, 1676
+  size: 177, 218
+  orig: 177, 218
+  offset: 0, 0
+  index: -1
+07a_arm_right_upper
+  rotate: false
+  xy: 1250, 1676
+  size: 177, 215
+  orig: 177, 215
+  offset: 0, 0
+  index: -1
+13_cyan_thread_loop
+  rotate: false
+  xy: 1435, 1676
+  size: 58, 198
+  orig: 58, 198
+  offset: 0, 0
+  index: -1
+11a_arm_left_upper
+  rotate: false
+  xy: 1501, 1676
+  size: 160, 197
+  orig: 160, 197
+  offset: 0, 0
+  index: -1
+10d_hat_thimble
+  rotate: false
+  xy: 1669, 1676
+  size: 166, 156
+  orig: 166, 156
+  offset: 0, 0
+  index: -1
+09d_capelet_right
+  rotate: false
+  xy: 1843, 1676
+  size: 130, 142
+  orig: 130, 142
+  offset: 0, 0
+  index: -1
+09e_capelet_left
+  rotate: false
+  xy: 8, 1966
+  size: 130, 142
+  orig: 130, 142
+  offset: 0, 0
+  index: -1
+01_ground_shadow
+  rotate: false
+  xy: 146, 1966
+  size: 540, 120
+  orig: 540, 120
+  offset: 0, 0
+  index: -1
+06c_leg_back_foot
+  rotate: false
+  xy: 694, 1966
+  size: 130, 102
+  orig: 130, 102
+  offset: 0, 0
+  index: -1
+05c_leg_front_foot
+  rotate: false
+  xy: 832, 1966
+  size: 166, 98
+  orig: 166, 98
+  offset: 0, 0
+  index: -1
+02c_shears_pivot_screw
+  rotate: false
+  xy: 1006, 1966
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+10b_eye_button
+  rotate: false
+  xy: 1078, 1966
+  size: 36, 36
+  orig: 36, 36
+  offset: 0, 0
+  index: -1

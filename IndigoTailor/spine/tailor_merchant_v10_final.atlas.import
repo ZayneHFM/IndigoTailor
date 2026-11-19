@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dq4q0l4u3j0nn"
+path="res://.godot/imported/tailor_merchant_v10_final.atlas-dee1025d4f4b7a494fd1d6508b54e765.spatlas"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/tailor_merchant_v10_final.atlas"
+dest_files=["res://.godot/imported/tailor_merchant_v10_final.atlas-dee1025d4f4b7a494fd1d6508b54e765.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

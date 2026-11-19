@@ -1,0 +1,150 @@
+{
+  "skeleton": {
+    "hash": "sts2_tailor_select_bg_4243",
+    "spine": "4.2.43",
+    "x": -960,
+    "y": -540,
+    "width": 1920,
+    "height": 1080,
+    "images": "./images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": 0.0,
+      "y": 0.0,
+      "rotation": 0.0
+    },
+    {
+      "name": "bg_field",
+      "x": 0.0,
+      "y": 0.0,
+      "rotation": 0.0,
+      "parent": "root"
+    },
+    {
+      "name": "back_shears",
+      "x": 670.0,
+      "y": -150.0,
+      "rotation": 0.0,
+      "parent": "root"
+    },
+    {
+      "name": "hand_needle",
+      "x": 30.0,
+      "y": -110.0,
+      "rotation": 0.0,
+      "parent": "root"
+    }
+  ],
+  "slots": [
+    {
+      "name": "01_bg_clean_field",
+      "bone": "bg_field",
+      "attachment": "01_bg_clean_field"
+    },
+    {
+      "name": "02_back_shears",
+      "bone": "back_shears",
+      "attachment": "02_back_shears"
+    },
+    {
+      "name": "03_hand_needle",
+      "bone": "hand_needle",
+      "attachment": "03_hand_needle"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "01_bg_clean_field": {
+          "01_bg_clean_field": {
+            "x": 0.0,
+            "y": 0.0,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "width": 960,
+            "height": 540
+          }
+        },
+        "02_back_shears": {
+          "02_back_shears": {
+            "x": 27.0,
+            "y": 141.0,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "width": 263,
+            "height": 531
+          }
+        },
+        "03_hand_needle": {
+          "03_hand_needle": {
+            "x": -26.0,
+            "y": 100.0,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "width": 150,
+            "height": 158
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle_loop": {
+      "bones": {
+        "hand_needle": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 1.6,
+              "value": 3.5
+            },
+            {
+              "time": 3.2,
+              "value": 0.0
+            }
+          ],
+          "translate": [
+            {
+              "time": 0.0,
+              "x": 0.0,
+              "y": 0.0
+            },
+            {
+              "time": 1.6,
+              "x": -4.0,
+              "y": 6.0
+            },
+            {
+              "time": 3.2,
+              "x": 0.0,
+              "y": 0.0
+            }
+          ]
+        },
+        "back_shears": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 1.6,
+              "value": -1.4
+            },
+            {
+              "time": 3.2,
+              "value": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

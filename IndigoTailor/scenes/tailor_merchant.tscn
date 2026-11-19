@@ -1,0 +1,15 @@
+[gd_scene load_steps=2 format=3 uid="uid://tailor_merchant_v10_final"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://tailor_merchant_v10_final_data" path="res://IndigoTailor/spine/tailor_merchant_v10_final_data.tres" id="1_data"]
+
+[node name="TailorMerchant" type="Node2D"]
+
+[node name="Visuals" type="SpineSprite" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, 0)
+scale = Vector2(0.35, 0.35)
+skeleton_data_res = ExtResource("1_data")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0

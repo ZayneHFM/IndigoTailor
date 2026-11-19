@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://tailor_select_bg_v1"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://tailor_select_bg_data" path="res://images/char_select/tailor/char_select_tailor_bg_data.tres" id="1_data"]
+[ext_resource type="Script" path="res://src/Core/Nodes/Screens/CharacterSelect/NCharacterSelectBg.cs" id="2_script"]
+
+[node name="TailorSelectBg" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_script")
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+position = Vector2(960, 540)
+skeleton_data_res = ExtResource("1_data")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0

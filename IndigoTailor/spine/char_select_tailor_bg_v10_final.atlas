@@ -1,0 +1,7 @@
+char_select_tailor_bg_v10_final.png
+size: 1920, 1080
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+char_select_master
+  bounds: 0, 0, 1920, 1080

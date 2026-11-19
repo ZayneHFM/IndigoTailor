@@ -1,0 +1,95 @@
+{
+  "skeleton": {
+    "hash": "sts2_tailor_select_bg_4243_v3",
+    "spine": "4.2.43",
+    "x": -960,
+    "y": -540,
+    "width": 1920,
+    "height": 1080,
+    "images": "./images/",
+    "audio": ""
+  },
+  "bones": [
+    {
+      "name": "root",
+      "x": 0.0,
+      "y": 0.0,
+      "rotation": 0.0
+    },
+    {
+      "name": "bg_field",
+      "parent": "root",
+      "x": 0.0,
+      "y": 0.0,
+      "rotation": 0.0
+    },
+    {
+      "name": "hand_needle",
+      "parent": "root",
+      "x": 44.0,
+      "y": -104.0,
+      "rotation": 0.0
+    }
+  ],
+  "slots": [
+    {
+      "name": "01_bg_clean_field",
+      "bone": "bg_field",
+      "attachment": "01_bg_clean_field"
+    },
+    {
+      "name": "02_hand_needle",
+      "bone": "hand_needle",
+      "attachment": "02_hand_needle"
+    }
+  ],
+  "skins": [
+    {
+      "name": "default",
+      "attachments": {
+        "01_bg_clean_field": {
+          "01_bg_clean_field": {
+            "x": 0.0,
+            "y": 0.0,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "width": 960,
+            "height": 540
+          }
+        },
+        "02_hand_needle": {
+          "02_hand_needle": {
+            "x": -20.0,
+            "y": 86.0,
+            "scaleX": 2.0,
+            "scaleY": 2.0,
+            "width": 156,
+            "height": 162
+          }
+        }
+      }
+    }
+  ],
+  "animations": {
+    "idle_loop": {
+      "bones": {
+        "hand_needle": {
+          "rotate": [
+            {
+              "time": 0.0,
+              "value": 0.0
+            },
+            {
+              "time": 1.6,
+              "value": 2.6
+            },
+            {
+              "time": 3.2,
+              "value": 0.0
+            }
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "INDIGOTAILOR-POTION_INDIGO_DYE.title": "靛蓝染液",
+  "INDIGOTAILOR-POTION_INDIGO_DYE.description": "将【针胚+】、【布胚+】与【线胚+】各 1 张置入手牌。",
+  "INDIGOTAILOR-POTION_THIMBLE_OIL.title": "顶针油",
+  "INDIGOTAILOR-POTION_THIMBLE_OIL.description": "当前手牌本回合均视为位于[aqua]幅边[/aqua]；其中符合附魔条件的牌各获得 1 枚提供 4 点格挡的补丁。",
+  "INDIGOTAILOR-POTION_ATROPOS_SHEARS.title": "金剪药水",
+  "INDIGOTAILOR-POTION_ATROPOS_SHEARS.description": "对所有敌人施加 5 层【脱线】。根据各敌人的意图，将对应的升级版胚件置入手牌。"
+}

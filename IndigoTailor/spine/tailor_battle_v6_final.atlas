@@ -1,0 +1,96 @@
+tailor_battle_v6.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+02_shears_blade_upper
+  rotate: false
+  xy: 12, 12
+  size: 827, 821
+  orig: 827, 821
+  offset: 0, 0
+  index: -1
+02_shears_blade_lower
+  rotate: false
+  xy: 1180, 1180
+  size: 827, 821
+  orig: 827, 821
+  offset: 0, 0
+  index: -1
+09_torso_coat
+  rotate: false
+  xy: 847, 12
+  size: 424, 558
+  orig: 424, 558
+  offset: 0, 0
+  index: -1
+07_arm_right_full
+  rotate: false
+  xy: 1279, 12
+  size: 187, 406
+  orig: 187, 406
+  offset: 0, 0
+  index: -1
+06_leg_back
+  rotate: false
+  xy: 1474, 12
+  size: 154, 392
+  orig: 154, 392
+  offset: 0, 0
+  index: -1
+10_head_hood_thimble
+  rotate: false
+  xy: 1636, 12
+  size: 203, 320
+  orig: 203, 320
+  offset: 0, 0
+  index: -1
+04_pincushion_back
+  rotate: false
+  xy: 307, 839
+  size: 231, 260
+  orig: 231, 260
+  offset: 0, 0
+  index: -1
+05_leg_front
+  rotate: false
+  xy: 548, 841
+  size: 103, 258
+  orig: 103, 258
+  offset: 0, 0
+  index: -1
+12_arm_left_forearm
+  rotate: false
+  xy: 1177, 840
+  size: 208, 253
+  orig: 208, 253
+  offset: 0, 0
+  index: -1
+11_arm_left_upper
+  rotate: false
+  xy: 1393, 839
+  size: 108, 158
+  orig: 108, 158
+  offset: 0, 0
+  index: -1
+15_needle_strike
+  rotate: false
+  xy: 12, 871
+  size: 289, 280
+  orig: 289, 280
+  offset: 0, 0
+  index: -1
+14_vfx_pierce_beam
+  rotate: false
+  xy: 695, 931
+  size: 512, 256
+  orig: 512, 256
+  offset: 0, 0
+  index: -1
+01_ground_shadow
+  rotate: false
+  xy: 18, 1135
+  size: 540, 120
+  orig: 540, 120
+  offset: 0, 0
+  index: -1

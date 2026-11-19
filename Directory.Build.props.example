@@ -1,0 +1,8 @@
+<Project>
+    <PropertyGroup>
+        <!-- Godot 4.5.1 mono 可执行文件路径（用于 export-pack 生成 .pck），请改为本机路径 -->
+        <GodotPath>REPLACE_WITH_GODOT_MONO_EXE</GodotPath>
+        <!-- 《杀戮尖塔 2》游戏安装目录，请改为本机路径 -->
+        <Sts2Path>REPLACE_WITH_STS2_INSTALL_DIR</Sts2Path>
+    </PropertyGroup>
+</Project>

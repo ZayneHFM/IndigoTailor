@@ -1,0 +1,9 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://tailor_merchant_v10_final_data"]
+
+[ext_resource type="SpineAtlasResource" path="res://IndigoTailor/spine/tailor_merchant_v10_final.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" path="res://IndigoTailor/spine/tailor_merchant_v10_final.spine-json" id="2_skel"]
+
+[resource]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+default_mix = 0.15

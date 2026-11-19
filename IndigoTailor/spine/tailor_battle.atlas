@@ -1,0 +1,31 @@
+tailor_battle.png
+size: 2048, 2048
+format: RGBA8888
+filter: Linear, Linear
+repeat: none
+01_ground_shadow
+  bounds: 1129, 891, 573, 133
+02_shears_whole
+  bounds: 8, 8, 888, 875
+04_pincushion_back
+  bounds: 457, 891, 212, 199
+05_leg_front
+  bounds: 1847, 8, 99, 315
+06_leg_back
+  bounds: 8, 891, 126, 294
+07_arm_right_upper
+  bounds: 677, 891, 140, 191
+08_arm_right_forearm
+  bounds: 343, 891, 106, 201
+09_torso_coat
+  bounds: 904, 8, 415, 544
+10_head_hood_thimble
+  bounds: 142, 891, 193, 273
+11_arm_left_upper
+  bounds: 1048, 891, 73, 134
+12_arm_left_forearm
+  bounds: 1710, 891, 246, 119
+13_vfx_cyan_thread
+  bounds: 825, 891, 215, 163
+14_vfx_slash_arc
+  bounds: 1327, 8, 512, 512

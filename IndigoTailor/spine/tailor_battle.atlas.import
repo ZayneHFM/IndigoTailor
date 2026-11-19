@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://budqohpxfllht"
+path="res://.godot/imported/tailor_battle.atlas-c2c4f2be4c6fd1db6ff4e110c9844bf8.spatlas"
+
+[deps]
+
+source_file="res://IndigoTailor/spine/tailor_battle.atlas"
+dest_files=["res://.godot/imported/tailor_battle.atlas-c2c4f2be4c6fd1db6ff4e110c9844bf8.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

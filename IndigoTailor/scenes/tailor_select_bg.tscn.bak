@@ -1,0 +1,35 @@
+[gd_scene load_steps=3 format=3 uid="uid://tailor_select_bg_v2"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://char_select_tailor_bg_data" path="res://IndigoTailor/spine/char_select_tailor_bg_data.tres" id="1_data"]
+[ext_resource type="Script" path="res://IndigoTailorCode/Character/TailorSelectBgPlayer.cs" id="2_player"]
+
+[node name="TailorSelectBg" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="BgBackdrop" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+color = Color(0.105882, 0.14902, 0.231373, 1)
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+position = Vector2(960, 540)
+scale = Vector2(1, 1)
+skeleton_data_res = ExtResource("1_data")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+
+[node name="BgAnimationPlayer" type="Node" parent="SpineSprite"]
+script = ExtResource("2_player")

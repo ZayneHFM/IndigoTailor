@@ -1,0 +1,9 @@
+{
+  "TAILOR_PATCH_ENCHANTMENT.title": "Patchwork Stitch",
+  "TAILOR_PATCH_ENCHANTMENT.description": "Contains stitched patch enhancements.",
+  "TAILOR_PATCH_ENCHANTMENT.extraCardText": "{Summary}",
+
+  "INDIGOTAILOR-TAILOR_PATCH_ENCHANTMENT.title": "Patchwork Stitch",
+  "INDIGOTAILOR-TAILOR_PATCH_ENCHANTMENT.description": "Contains stitched patch enhancements.",
+  "INDIGOTAILOR-TAILOR_PATCH_ENCHANTMENT.extraCardText": "{Summary}"
+}
